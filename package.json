@@ -1,0 +1,29 @@
+{
+  "name": "node-js-jwt-auth-mongodb",
+  "version": "1.0.0",
+  "description": "Alumini Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "authentication",
+    "mongodb"
+  ],
+  "author": "Samurai",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.67.0",
+    "aws-sdk": "^2.1111.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1",
+    "nodemon": "^2.0.15"
+  }
+}
